@@ -12,16 +12,21 @@
           text-align: center;
         }
 
-          p {
+          label {
             color: #555;
             fount-size: 18px;
-            fontfamily: 'Noto Sans KR' , sans-serif;
+            fount-family: 'Noto Sans KR' , sans-serif;
           }
+        </style>
           <body>
-        
-        
-          
-          
+        <h1>로그인</h1>
+
+            <form action="login" method="post">
+              <label>아이디: <input teyp="text" name="id"></label><br>
+              <label>비밀번호: <input teyp="password" name="pw"></label><br>
+              <button type="submit">로그인</button>
+            </form>
+          </body>
       </style>
     </head>
   </html>
